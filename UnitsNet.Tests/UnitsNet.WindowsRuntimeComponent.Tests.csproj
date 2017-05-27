@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>UnitsNet.Tests</RootNamespace>
     <AssemblyName>UnitsNet.WindowsRuntimeComponent.Tests</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\Src\</SolutionDir>
     <TargetFrameworkProfile>
@@ -61,12 +61,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.UnitsNet.WindowsRuntimeComponent.Tests.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\UnitsNet\UnitsNet.WindowsRuntimeComponent-Net45.csproj">
-      <Project>{6a476f62-ca62-4a90-a866-1094bec1d23b}</Project>
-      <Name>UnitsNet.WindowsRuntimeComponent-Net45</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
